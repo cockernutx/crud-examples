@@ -13,6 +13,7 @@
         $bookName = $linhas->BookName;
         $summary = $linhas->Summary;
         $available = $linhas->BooksAvailable;
+
         $price = $linhas->BookPrice;
     }
 ?>

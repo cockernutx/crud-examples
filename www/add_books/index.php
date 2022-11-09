@@ -33,7 +33,7 @@
                         <input type="number" min="1" step="any" name="price" class="form-control" required>
                     </div>
                     <div class="form-group">
-                        <button id="sendButton" class="btn btn-success"type="submit">Enviar</button>
+                        <button id="sendButton" class="btn btn-success"type="submit">Send</button>
                     </div>
                 </form>
             </div>

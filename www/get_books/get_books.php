@@ -6,6 +6,7 @@
       <th scope="col">Name</th>
       <th scope="col">Ammount available</th>
       <th scope="col">Price</th>
+      <th scope="col"></th>
 
     </tr>
   </thead>
@@ -13,11 +14,13 @@
     <?php 
 
      while($linhas = $tbl->fetch_object()) {
+        
         print "<tr>" ;
         print "<th scope=\"row\">".$linhas->BookID."</th>";
         print "<th>".$linhas->BookName."</th>";
         print "<th>".$linhas->BooksAvailable."</th>";
-        print "<th>".$linhas->BookPrice."</th>";
+        print "<th>$".$linhas->BookPrice."</th>";
+        print "<th><a href=\"edit_book/?id=".$linhas->BookID."\">Edit</a></th>";
         print "</tr>";
      }
     ?>

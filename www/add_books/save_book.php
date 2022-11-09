@@ -12,13 +12,13 @@
 
 			if($result==true)
 			{
-				print "<script>alert('Cliente Cadastrado com sucesso !!!!');</script>";
-				print "<script>location.href='clientes.php';</script>";
+				print "<script>alert('Book registered succesfully!');</script>";
+				print "<script>location.href='/';</script>";
 			}
 			else
 			{
-				print "<script>alert('Não foi possível cadastrar o cliente !!!!');</script>";
-				print "<script>location.href='clientes.php';</script>";
+				print "<script>alert('There was an error registering the book :(');</script>";
+				print "<script>location.href='/';</script>";
 			}
 		break;
 		

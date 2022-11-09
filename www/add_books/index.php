@@ -27,7 +27,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <form action="save_book.php" method="POST">
-                    <input type="hidden" name="acao" value="cadastrar">
+                    <input type="hidden" name="addBook" value="add">
                     <div class="form-group">
                         <label>Book Name</label>
                         <input type="text" name="bookName" class="form-control" required>

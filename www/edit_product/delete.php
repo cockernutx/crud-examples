@@ -7,12 +7,12 @@
 
 			if($result==true)
 			{
-				print "<script>alert('Book deleted succesfully!');</script>";
+				print "<script>alert('Product deleted succesfully!');</script>";
 				print "<script>location.href='/';</script>";
 			}
 			else
 			{
-				print "<script>alert('There was an error deleting the book :(');</script>";
+				print "<script>alert('There was an error deleting the product :(');</script>";
 				print "<script>location.href='/';</script>";
 			}
 

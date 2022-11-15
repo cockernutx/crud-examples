@@ -14,22 +14,18 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <form action="save_book.php" method="POST">
+                <form action="save_product.php" method="POST">
                     <input type="hidden" name="addBook" value="add">
                     <div class="form-group">
-                        <label>Book Name</label>
+                        <label>Product Name</label>
                         <input type="text" name="bookName" class="form-control" required>
                     </div>
                     <div class="form-group">
-                        <label>Summary</label>
-                        <input type="text" name="summary" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label>Books available</label>
+                        <label>Ammount available</label>
                         <input type="number" name="booksAvailable" class="form-control" required>
                     </div>
                     <div class="form-group">
-                        <label>Book price</label>
+                        <label>Price</label>
                         <input type="number" min="1" step="any" name="price" class="form-control" required>
                     </div>
                     <div class="form-group">

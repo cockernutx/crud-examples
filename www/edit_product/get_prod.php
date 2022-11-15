@@ -1,7 +1,7 @@
 <?php 
 	include("../db_connection/dbConnection.php");
 	//Aqui vai buscar a ação através do Request
-    $sql = "SELECT * FROM Books WHERE BookID = ".@$_GET["id"];
+    $sql = "SELECT * FROM produtos WHERE proId = ".@$_GET["id"];
 
     $result = $connection->query($sql) or die($connection->error);
     $rowAmmount = $result->num_rows;
@@ -10,10 +10,9 @@
     $available = 0;
     $price = 0.0;
     while($linhas = $result->fetch_object()) {
-        $bookName = $linhas->BookName;
-        $summary = $linhas->Summary;
-        $available = $linhas->BooksAvailable;
+        $bookName = $linhas->proNome;
+        $available = $linhas->proQtd;
 
-        $price = $linhas->BookPrice;
+        $price = $linhas->proValor;
     }
 ?>

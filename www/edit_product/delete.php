@@ -1,7 +1,7 @@
 <?php
 	include("../db_connection/dbConnection.php");
 
-			$sql = "DELETE FROM Books WHERE BookID=".$_POST["id"];
+			$sql = "DELETE FROM produtos WHERE proId=".$_POST["id"];
 
 			$result = $connection->query($sql) or die($connection->error);
 

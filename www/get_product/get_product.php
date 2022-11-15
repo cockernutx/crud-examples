@@ -16,11 +16,11 @@
      while($linhas = $tbl->fetch_object()) {
         
         print "<tr>" ;
-        print "<th scope=\"row\">".$linhas->BookID."</th>";
-        print "<th>".$linhas->BookName."</th>";
-        print "<th>".$linhas->BooksAvailable."</th>";
-        print "<th>$".$linhas->BookPrice."</th>";
-        print "<th><a href=\"edit_book/?id=".$linhas->BookID."\">Edit</a></th>";
+        print "<th scope=\"row\">".$linhas->proId."</th>";
+        print "<th>".$linhas->proNome."</th>";
+        print "<th>".$linhas->proQtd."</th>";
+        print "<th>$".$linhas->proValor."</th>";
+        print "<th><a href=\"edit_product/?id=".$linhas->proId."\">Edit</a></th>";
         print "</tr>";
      }
     ?>
@@ -31,7 +31,7 @@
 <?php
 	include("db_connection/dbConnection.php");
 	//Aqui vai buscar a ação através do Request
-    $sql = "SELECT * FROM Books";
+    $sql = "SELECT * FROM produtos";
 
     $result = $connection->query($sql) or die($connection->error);
     $rowAmmount = $result->num_rows;

@@ -7,7 +7,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css"></link>
-    <title>Cadastro de Clientes</title>
+    <title>CRUD Project</title>
   </head>
   <body>
     <?php include("navbar/navbar.php")?>

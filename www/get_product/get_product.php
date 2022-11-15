@@ -3,9 +3,9 @@
   <thead>
     <tr>
         <th scope="col">#</th>
-      <th scope="col">Name</th>
-      <th scope="col">Ammount available</th>
-      <th scope="col">Price</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Quantidade </th>
+      <th scope="col">Preço</th>
       <th scope="col"></th>
 
     </tr>

@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="add_books.css"></link>
     <title>Cadastro de Clientes</title>
   </head>
   <body>
@@ -17,15 +16,15 @@
                 <form action="save_product.php" method="POST">
                     <input type="hidden" name="addBook" value="add">
                     <div class="form-group">
-                        <label>Product Name</label>
+                        <label>Nome</label>
                         <input type="text" name="bookName" class="form-control" required>
                     </div>
                     <div class="form-group">
-                        <label>Ammount available</label>
+                        <label>Quantidade</label>
                         <input type="number" name="booksAvailable" class="form-control" required>
                     </div>
                     <div class="form-group">
-                        <label>Price</label>
+                        <label>Preço</label>
                         <input type="number" min="1" step="any" name="price" class="form-control" required>
                     </div>
                     <div class="form-group">

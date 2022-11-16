@@ -29,7 +29,7 @@
 <?php }?>
 
 <?php
-	include("db_connection/dbConnection.php");
+	include("./db_connection/dbConnection.php");
 	//Aqui vai buscar a ação através do Request
     $sql = "SELECT * FROM produtos";
 

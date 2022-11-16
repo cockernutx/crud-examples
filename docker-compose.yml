@@ -1,5 +1,8 @@
+version: '3.8'
 services:
-  app:
-    build:
-      dockerfile: Dockerfile
-      context: .
+  php-apache-environment:
+    container_name: php-apache
+    image: php:8.0-apache
+    network_mode: host
+    volumes:
+      - ./www:/var/www/html/

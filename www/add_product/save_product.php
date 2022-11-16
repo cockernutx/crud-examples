@@ -13,12 +13,12 @@
 			if($result==true)
 			{
 				print "<script>alert('Product registered succesfully!');</script>";
-				print "<script>location.href='/';</script>";
+				print "<script>location.href='../';</script>";
 			}
 			else
 			{
 				print "<script>alert('There was an error registering the Product :(');</script>";
-				print "<script>location.href='/';</script>";
+				print "<script>location.href='../';</script>";
 			}
 		break;
 		

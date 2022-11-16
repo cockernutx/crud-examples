@@ -10,12 +10,12 @@
 			if($result==true)
 			{
 				print "<script>alert('Product edited succesfully!');</script>";
-				print "<script>location.href='/';</script>";
+				print "<script>location.href='../';</script>";
 			}
 			else
 			{
 				print "<script>alert('There was an error editing the Product :(');</script>";
-				print "<script>location.href='/';</script>";
+				print "<script>location.href='../';</script>";
 			}
 
 ?>
